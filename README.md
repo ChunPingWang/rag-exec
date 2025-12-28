@@ -4,6 +4,55 @@
 
 ---
 
+## 📓 分支說明 (Branch Information)
+
+| 分支 | 說明 | 適用對象 |
+|------|------|----------|
+| **`jupyter-notebook`** (目前分支) | Jupyter Notebook 格式，互動式學習體驗 | 學生、初學者、教學用途 |
+| `main` | Python 腳本格式 (.py)，可直接執行 | 開發者、進階使用者 |
+
+### 🎓 jupyter-notebook 分支特色
+
+此分支將所有範例轉換為 **Jupyter Notebook (.ipynb)** 格式，提供更好的學習體驗：
+
+- **分步執行**：可逐步執行程式碼，觀察每個步驟的輸出
+- **即時互動**：修改參數後立即看到結果
+- **圖文並茂**：Markdown 說明與程式碼交織呈現
+- **練習區域**：每個 Notebook 都有練習區供學生動手實作
+
+### 📁 Notebook 檔案列表
+
+```
+example_01_basic_chat.ipynb        - 基本對話
+example_02_multi_turn_chat.ipynb   - 多輪對話（有記憶）
+example_03_streaming.ipynb         - 串流輸出
+example_04_system_prompt.ipynb     - 系統提示詞與角色扮演
+example_05_code_assistant.ipynb    - 程式碼助手
+example_06_lmstudio_basic.ipynb    - LM Studio 基本對話
+example_07_lmstudio_openai.ipynb   - 使用 OpenAI SDK
+example_08_lmstudio_multi_turn.ipynb - LM Studio 多輪對話
+example_09_lmstudio_streaming.ipynb  - LM Studio 串流輸出
+example_10_list_models.ipynb       - 列出可用模型
+example_11_universal_chatbot.ipynb - 通用聊天程式
+example_12_simple_rag.ipynb        - 簡易 RAG 系統
+example_13_vector_rag.ipynb        - 向量搜尋 RAG
+example_14_document_qa.ipynb       - 文件問答系統
+example_15_prepare_dataset.ipynb   - 準備 Fine-Tuning 資料
+example_16_ollama_modelfile.ipynb  - Ollama 自訂模型
+example_17_data_augmentation.ipynb - 資料增強
+example_18_evaluate_finetune.ipynb - 評估模型效果
+example_19_evaluation_system.ipynb - 完整評估系統
+```
+
+### 🚀 如何使用 Notebook
+
+1. 安裝 Jupyter：`pip install jupyter`
+2. 啟動 Jupyter：`jupyter notebook`
+3. 在瀏覽器中開啟任一 `.ipynb` 檔案
+4. 按照步驟依序執行每個 Cell
+
+---
+
 ## 目錄
 
 ### 基礎概念
