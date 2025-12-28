@@ -51,6 +51,13 @@ example_19_evaluation_system.ipynb - 完整評估系統
 3. 在瀏覽器中開啟任一 `.ipynb` 檔案
 4. 按照步驟依序執行每個 Cell
 
+### 💻 想要 Python 腳本？
+
+切換到 `main` 分支獲得可直接執行的 Python 腳本版本：
+```bash
+git checkout main
+```
+
 ---
 
 ## 目錄
