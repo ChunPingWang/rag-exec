@@ -4,6 +4,54 @@
 
 ---
 
+## 📓 分支說明 (Branch Information)
+
+| 分支 | 說明 | 適用對象 |
+|------|------|----------|
+| **`main`** (目前分支) | Python 腳本格式 (.py)，可直接執行 | 開發者、進階使用者 |
+| `jupyter-notebook` | Jupyter Notebook 格式，互動式學習體驗 | 學生、初學者、教學用途 |
+
+### 💻 main 分支特色
+
+此分支包含所有範例的 **Python 腳本 (.py)** 格式：
+
+- **直接執行**：`python example_01_basic_chat.py`
+- **適合開發**：可整合到其他專案中
+- **命令列操作**：適合熟悉終端機的使用者
+
+### 📁 Python 檔案列表
+
+```
+example_01_basic_chat.py        - 基本對話
+example_02_multi_turn_chat.py   - 多輪對話（有記憶）
+example_03_streaming.py         - 串流輸出
+example_04_system_prompt.py     - 系統提示詞與角色扮演
+example_05_code_assistant.py    - 程式碼助手
+example_06_lmstudio_basic.py    - LM Studio 基本對話
+example_07_lmstudio_openai.py   - 使用 OpenAI SDK
+example_08_lmstudio_multi_turn.py - LM Studio 多輪對話
+example_09_lmstudio_streaming.py  - LM Studio 串流輸出
+example_10_list_models.py       - 列出可用模型
+example_11_universal_chatbot.py - 通用聊天程式
+example_12_simple_rag.py        - 簡易 RAG 系統
+example_13_vector_rag.py        - 向量搜尋 RAG
+example_14_document_qa.py       - 文件問答系統
+example_15_prepare_dataset.py   - 準備 Fine-Tuning 資料
+example_16_ollama_modelfile.py  - Ollama 自訂模型
+example_17_data_augmentation.py - 資料增強
+example_18_evaluate_finetune.py - 評估模型效果
+example_19_evaluation_system.py - 完整評估系統
+```
+
+### 🎓 想要互動式學習？
+
+切換到 `jupyter-notebook` 分支獲得 Jupyter Notebook 版本：
+```bash
+git checkout jupyter-notebook
+```
+
+---
+
 ## 目錄
 
 ### 基礎概念
